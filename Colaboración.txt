@@ -1,0 +1,11 @@
+Baran Quiroz Jose David
+-Operadores relacionales
+-Identificadores y palabras reservadas
+-Reconocimiento de tokens de 1 caracter.
+
+Flores Corjeo David Nahum
+-Reconocimiento de tokens
+-Reconocmiento de cadenas
+-Reconocimietos de comentarios 
+
+ 
