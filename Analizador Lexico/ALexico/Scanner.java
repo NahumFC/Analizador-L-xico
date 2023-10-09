@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import static ALexico.Interprete.error;
 
 
 public class Scanner {
@@ -405,4 +404,15 @@ public class Scanner {
         }tokens.add(new Token(TipoToken.EOF, ""));
         return tokens;
     }
+
+    void error(int linea, String mensaje){
+        reportar(linea, "", mensaje);
+    }
+
+    public void reportar(int linea, String posicion, String mensaje){
+        System.err.println(
+                "[linea " + linea + "] Error " + posicion + ": " + mensaje
+        );
+    }
 }
+
